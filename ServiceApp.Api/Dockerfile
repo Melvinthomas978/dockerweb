@@ -4,5 +4,5 @@ WORKDIR /app
 
 
 # Copy everything else and build
-COPY /test/ /app
+COPY /ServiceApp.Api/ /app
 ENTRYPOINT ["dotnet", "ServiceApp.Api.dll"]
