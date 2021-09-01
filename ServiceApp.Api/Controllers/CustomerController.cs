@@ -13,7 +13,7 @@ namespace ServiceApp.Api.Controllers
     {
         public string Get()
         {
-            return "It is working";
+            return "It is working. Version:2.0";
         }
     }
 }
